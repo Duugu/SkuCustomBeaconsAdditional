@@ -1,0 +1,15 @@
+﻿local f = CreateFrame("Frame")
+f:RegisterEvent("PLAYER_ENTERING_WORLD")
+f:SetScript("OnEvent", function()
+   local SkuBeacon = LibStub("SkuBeacon-1.0")
+   if SkuBeacon then
+       SkuBeacon:RegisterSoundSet("Beacon 7", "Interface\\AddOns\\SkuCustomBeaconsAdditional\\assets\\beacon7", 5, 30, "beacon7")
+       SkuBeacon:RegisterSoundSet("Beacon 8", "Interface\\AddOns\\SkuCustomBeaconsAdditional\\assets\\beacon8", 5, 30, "beacon8")
+       SkuBeacon:RegisterSoundSet("Beacon 9", "Interface\\AddOns\\SkuCustomBeaconsAdditional\\assets\\beacon9", 5, 30, "beacon9")
+       SkuBeacon:RegisterSoundSet("Beacon 10", "Interface\\AddOns\\SkuCustomBeaconsAdditional\\assets\\beacon10", 5, 30, "beacon10")
+       SkuBeacon:RegisterSoundSet("Beacon 11", "Interface\\AddOns\\SkuCustomBeaconsAdditional\\assets\\beacon11", 5, 30, "beacon11")
+       SkuBeacon:RegisterSoundSet("Beacon 12", "Interface\\AddOns\\SkuCustomBeaconsAdditional\\assets\\beacon12", 5, 30, "beacon12")
+       SkuBeacon:RegisterSoundSet("Beacon 13", "Interface\\AddOns\\SkuCustomBeaconsAdditional\\assets\\beacon13", 5, 30, "beacon13")
+   end
+   f:UnregisterAllEvents()
+end)
