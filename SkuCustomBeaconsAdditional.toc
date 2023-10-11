@@ -1,5 +1,5 @@
-## Interface: 30402
-## Title: SkuCustomBeaconsAdditional
-## Version: 31
+## Interface: 30403
+## Title: SkuCustomBeaconsAdditional (32)
+## Version: 32
 ## X-Curse-Project-ID: 880027
 Core.lua
